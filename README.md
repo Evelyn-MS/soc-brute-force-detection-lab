@@ -1,13 +1,13 @@
-# Brute Force Attack Detection - SOC Lab
+# 🚨 Brute Force Attack Detection - SOC Lab
 
-## Overview
+## 📌 Overview
 In this lab, I analyzed web server logs to identify suspicious login activity. The i nvestigation revealed multiple failed login attemps followed by a successful authentication from the same external Ip address.
 
 This behavior is consistent with a brute force attack resulting in unauthorized access.
 
 ---
 
-## Scenario
+## 🧪 Scenario
 A security alert was triggered indicating a posible suspicious login attempt from an external IP address.
 
 The following logs were analyzed:
@@ -22,7 +22,7 @@ The following logs were analyzed:
 
 ---
 
-## Incident Report
+## 🔍 Incident Report
 
 ### Summary
 Multiple failed login attemps ere detected from an external IP address, followed by a successful authentication and access to the dashboard. This behavior is consistent with a potential brute force attack resulting in unauthorizaed access.
@@ -52,7 +52,7 @@ This incident is indicative of a successfulbrute force attack resulting in anaut
 
 ---
 
-## Skil Demonstrated
+## 🛠 Skills Demonstrated
 - Log analysis
 - Threat detection
 - Incident investigation
@@ -61,11 +61,11 @@ This incident is indicative of a successfulbrute force attack resulting in anaut
 
 ---
 
-## Tools Used
+## 🎯 Tools Used
 - Manual log analysis (simulating SOC environment)
 
 ---
 
-## Key Takeaway
+## 🚀 Key Takeaway
 This lab demonstrates how analyzing login patterns and HTTP status codes can help identify brute force attacks and unauthorized access in real-world scenarios.
 
